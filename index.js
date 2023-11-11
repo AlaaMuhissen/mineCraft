@@ -51,8 +51,8 @@ function createCells(i ,j){
 }
 
 function createTable(width , height){
-    grid.style.gridTemplateColumns = `repeat(${height}, 100px)`;
-    grid.style.gridTemplateRows = `repeat(${width}, 100px)`;
+    grid.style.gridTemplateColumns = `repeat(${height}, 20px)`;
+    grid.style.gridTemplateRows = `repeat(${width}, 20px)`;
     for (let i =0 ; i < width ; i++){
         for(let j = 0 ; j < height ; j++){
             createCells(i ,j);
@@ -67,6 +67,10 @@ function addColor(i ,j,color){
 function setImg(i ,j,img){
     const cell = document.getElementById(`cell-${i}-${j}`);
     cell.style.backgroundImage = `url(${img})`;
+
+    cell.style.backgroundRepeat = 'no-repeat';
+    cell.style.backgroundPosition = 'center';
+    cell.style.backgroundSize = 'cover';
  }
 
 function paint(startRow , endRow , startColumns,endColumns  ,color ,img){
