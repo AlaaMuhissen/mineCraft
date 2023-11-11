@@ -5,6 +5,8 @@
 }
 
 body {
+    width: 1440px;
+    height: 100vh;
     background-color: #1f1f1f;
     display: flex;
     flex-direction: column;
@@ -14,10 +16,12 @@ body {
 }
 #game{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 2em 0;
+    width: 800px;
+    height: 80vh;
 }
 
 h1 {
@@ -29,15 +33,19 @@ h1 {
 
 .grid-container {
     display: grid;
+    /* margin-left: 200px; */
     /* gap: 2px; */
+    
 }
 
 .grid-item {
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
     background-color: rgb(27, 27, 27);
     border: 0.1px solid #ccc;
     cursor: pointer;
+   
+ 
 }
 
 .tool {
@@ -52,8 +60,8 @@ h1 {
     background-color: transparent;
     border-radius: 2em;
     /* border: #ccc 1px solid; */
-    height: 300px;
-    width: 300px;
+    height: 40px;
+    width: 40px;
     background-position: center;
     background-size: cover;
     border: none;
@@ -69,15 +77,18 @@ h1 {
     align-items: center;
 
     flex-direction: column;
-    font-size: 40px;
+    font-size: 10px;
 }
 
 .inventory-square {
-    width: 150px;
-    height: 150px;
+    width: 30px;
+    height: 30px;
     margin: 5px;
     border: 1px solid #ccc;
     cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    border: none;
     
 }
 
@@ -96,6 +107,7 @@ h1 {
 
 #axe{
     background-image: url('../img/axe.png');
+    
 }
 #pickaxe{
     background-image: url('../img/pickaxe.png');
@@ -106,21 +118,22 @@ h1 {
 
 #part2 {
     background-color: #ffffff;
-    width: 20em;
-    height: 156em;
+    width: 7em;
+    height: 70ex;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 10px;
-    border-radius: 40px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-left: 20px;
 }
 
 #resetButton{
-    width: 300px;
-    height: 100px;
+    width: 60px;
+    height: 30px;
     border-radius: 40px;
-    font-size: 36px;
+    font-size: 12px;
     background-color: rgb(247, 89, 89);
     color: aliceblue;
     border: none;
