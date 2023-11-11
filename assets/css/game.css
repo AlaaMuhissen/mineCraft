@@ -33,19 +33,12 @@ h1 {
 
 .grid-container {
     display: grid;
-    /* margin-left: 200px; */
-    /* gap: 2px; */
-    
 }
 
 .grid-item {
-    /* width: 100px;
-    height: 100px; */
     background-color: rgb(27, 27, 27);
     border: 0.1px solid #ccc;
     cursor: pointer;
-   
- 
 }
 
 .tool {
@@ -59,16 +52,11 @@ h1 {
     color: white;
     background-color: transparent;
     border-radius: 2em;
-    /* border: #ccc 1px solid; */
     height: 40px;
     width: 40px;
     background-position: center;
     background-size: cover;
     border: none;
-}
-.tool:hover{
-    color: yellow;
-    border: 1px solid yellow;
 }
 
 .inventory {
@@ -103,7 +91,6 @@ h1 {
     color: #1f1f1f;
  
 }
-
 
 #axe{
     background-image: url('../img/axe.png');
@@ -140,18 +127,18 @@ h1 {
     font-weight: 600;
 }
 
-#rook{
+#rock{
     background-image: url('../img/rock.png');
 }
 #wood{
     background-image: url('../img/wood.png');
 }
 #leaf{
-    background-image: url('../img/grass.png');
+    background-image: url('../img/leaf.png');
 }
 #grass{
-    background-image: url('../img/surface.png');
+    background-image: url('../img/grass.png');
 }
 #soil{
-    background-image: url('../img/ground.png');
+    background-image: url('../img/soil.png');
 }
