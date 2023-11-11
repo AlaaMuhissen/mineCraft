@@ -1,0 +1,31 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    height: 100vh;
+    background-image: url('../img/minecraftWallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+}
+
+#startGameButton{
+    width: 300px;
+    height: 80px;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    margin-top: 600px;
+    margin-left: 550px;
+    background-color: rgb(53, 37, 133);
+    color: rgb(217, 214, 214);
+    font-weight: 600;
+  
+}
